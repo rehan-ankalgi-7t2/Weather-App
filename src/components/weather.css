@@ -1,0 +1,19 @@
+.weather {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather__card {
+    height: fit-content;
+    background: rgba(0, 0, 0, 0.88);
+    width: 300px;
+    padding: 24px 30px 40px 30px; 
+    border-radius: 16px;
+}
+
+.weather__card h1 {
+    font-size: 40px;
+}
